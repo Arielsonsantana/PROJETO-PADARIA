@@ -1,3 +1,81 @@
 body {
     text-align: center;
 }
+
+.secao {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.imagem-logotipo {
+    width: 150px;
+
+}
+
+a {
+    margin: 0 10px;
+    color: #542f0c;
+}
+
+span {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border-top: 1px solid #debe37;
+    }
+
+h2 {
+    font-weight: normal;
+    color: #debe37;
+    margin-top: 10px;
+}
+
+.imagem-banner {
+    width: 700px;
+    border-radius: 10px;
+    }
+
+.secao-destaque {
+    background-color: #debe37;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    color: #ffffff;
+    border-radius: 10px;
+    line-height: 8px;
+    }
+
+.secao-destaque img {
+    padding: 20px;
+}
+
+.secao-destaque h3 {
+    font-size: 24px;
+}
+
+.secao-destaque h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.secao-destaque p {
+    width: 500px;
+    margin: 0px auto;
+    line-height: 30px;
+}
+
+.secao-destaque img {
+    width: 400px
+}
+
+.secao-contato {
+    line-height: 8px;
+    padding: 25px;
+
+}
+    

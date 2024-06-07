@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Padaria Plus</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <img src="logo.png" alt="logo da empresa">
-    <a href="#sobre">Sobre</a>
-    <a href="#produto">Produto</a>
-    <a href="Contato">Contato</a>
-
-    <div>
+    <div class="secao"> 
+    <img class="imagem-logotipo" src="logo.png" alt="logo da empresa">
+    <p>
+        <a href="#sobre">Sobre</a>
+        <a href="#produto">Produto</a>
+        <a href="Contato">Contato</a>
+    </p>
+    </div>
+    <div class="secao" id="sobre">
         <h1>O melhor de nossos pães e bolos para você</h1>
         <h2>Desde 2001, o lugar mais gostoso da cidade.</h2>
-        <img src="produtos-padaria.jpg" alt="produtos da padaria">
+        <img class="imagem-banner" src="produtos-padaria.jpg" alt="produtos da padaria">
     </div>
-    <div>
+    <div class="secao secao-destaque" id="produtos">
         <h2>Veja nossos produtos abaixo</h2>
+        <h4>Pães</h4>
+        <p>Temos um processo de fabricação 100% caseiro. Esse foi um dos maiores motivos que fizeram com que a Padaria Plus crescesse com as proporçoes que temos hoje. Temos um pão unico de pura qualidade</p>
+        <img src="paes.jpg" alt="paes">
+        <h4> Bolos</h4>
+        <p>Temos um processo de fabricação 100% caseiro. Esse foi um dos maiores motivos que fizeram com que a Padaria Plus crescesse com as proporçoes que temos hoje. Temos um pão unico de pura qualidade</p>
+        <img src="bolos.jpg" alt="bolos">
         
     </div>
-    
+    <div class="secao secao-contato" id="contato">
+        <h3>Contato</h3>
+        <p>Estamos localizados na Av. Cuiaba</p>
+        <p>Nosso telefone <span>(44) 9999-9999</span></p>
+        <p>Horário de funcionamento:<span>Seg a Sex: 9h as 18h</span></p>
+        <p>Sab e Dom: <span>8h as 12h</span></p>
+        <p>Feriados:<span>Fechado</span></p>
+
+    </div>
+     
 </body>
 </html>
